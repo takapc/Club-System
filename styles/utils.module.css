@@ -1,0 +1,123 @@
+.main {
+    color: skyblue;
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.idInput {
+    width: 300;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-left: 10px;
+}
+.textbox:focus {
+    outline: 0;
+    border: 2px solid #2196f3;
+}
+
+.join {
+    background-color: #ff5959;
+    border-color: #ff5959;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 0.5;
+    position: relative;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+}
+
+.join:hover {
+    background-color: #ff7a7a;
+    border-color: #ff7a7a;
+}
+
+.leave {
+    background-color: #7a59ff;
+    border-color: #7a59ff;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 0.5;
+    position: relative;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+
+.leave:hover {
+    background-color: rgb(136, 140, 250);
+    border-color: #888cfa;
+}
+
+.search {
+    background-color: #10d420;
+    border-color: #10d420;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 0.5;
+    position: relative;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+
+.search:hover {
+    background-color: #36df52;
+    border-color: #36df52;
+}
+
+.tableDesign {
+    margin-top: 100px;
+    margin-left: 1px;
+    width: 99.8%;
+    background-color: #ccc;
+}
+
+.thDesign {
+    /* background-color: #ccc; */
+}
+
+.tdDesign {
+    text-align: center;
+    background-color: #fff;
+}
+
+.active {
+    color: green;
+}
+
+.notactive {
+    color: rgb(215, 67, 67);
+}
+
+.title {
+    margin: auto;
+    /* padding-bottom: 50px; */
+    font-size: 2rem;
+}

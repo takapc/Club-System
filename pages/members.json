@@ -1,0 +1,25 @@
+{
+    "member": [
+        {
+            "name": "立花 孝志",
+            "age": 59,
+            "id": 1,
+            "category": "フロントエンド",
+            "isActive": true
+        },
+        {
+            "name": "Elon Musk",
+            "age": 59,
+            "id": 2,
+            "category": "フロントバック",
+            "isActive": true
+        },
+        {
+            "name": "西村博之",
+            "age": 58,
+            "id": 3,
+            "category": "自称論破王",
+            "isActive": false
+        }
+    ]
+}
