@@ -70,7 +70,7 @@ export default function Home() {
                         value={id}
                         onChange={(event) => setId(event.target.value)}
                     ></input>
-                    <p>{searchedText}</p>
+                    <p className={style.viewID}>{searchedText}</p>
                 </div>
                 <table className={style.tableDesign}>
                     <caption className={style.title}>部員一覧</caption>
