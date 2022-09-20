@@ -1,8 +1,8 @@
 import style from "../styles/utils.module.css";
 import { useState } from "react";
-import table from "./_TableManager.js";
+import table from "../components/_TableManager.js";
 
-const memberData = require("./members.json"); //別のAPIから取得するため仮置きのjson
+const memberData = require("../components/members.json"); //別のAPIから取得するため仮置きのjson
 
 export default function Home() {
     const date = new Date();
