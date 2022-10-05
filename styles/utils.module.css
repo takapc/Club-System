@@ -125,3 +125,30 @@
 .viewID {
     color: green;
 }
+
+.hide {
+    visibility: hidden;
+}
+
+.view {
+    background-color: #3aa1cd;
+    border-color: #3aa1cd;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 0.5;
+    position: relative;
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.1em;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+
+.view:hover {
+    background-color: #3f9dc5;
+    border-color: #3f9dc5;
+}

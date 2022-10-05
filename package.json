@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "^18.7.18",
     "fs": "^0.0.1-security",
+    "js-base64": "^3.7.2",
+    "microcms-js-sdk": "^2.2.1",
+    "net": "^1.0.2",
     "next": "12.3.0",
+    "node-fetch": "^3.2.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sqlite3": "^5.1.1"
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.1",
+    "tls": "^0.0.1"
   },
   "devDependencies": {
+    "@types/react": "18.0.20",
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0"
   }
